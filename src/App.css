@@ -1,0 +1,171 @@
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.navDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 25px 0;
+  margin: 0 auto;
+  width: 1192px;
+}
+
+.navUl {
+  display: flex;
+  gap: 25px;
+  align-items: baseline;
+  margin: 0;
+}
+
+.navList {
+  list-style: none;
+
+}
+
+.navA {
+  text-decoration: none;
+  color: black;
+}
+
+.navList:last-child {
+  background: black;
+  padding: 10px 17px;
+  border-radius: 22px
+}
+
+.navList:last-child a {
+  color: #FFC017;
+}
+
+/* Modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.modal-body {
+  padding: 44px 56px;
+  width: 500px;
+  border-radius: 5px;
+  margin: 100px auto;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.modal-title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* Intro starts here */
+
+.styleMain {
+  display: flex;
+  gap: 217px;
+  background-color: #FFC017;
+  margin: 0 auto;
+  padding-top: 95px;
+}
+
+#title {
+  margin-top: 75px;
+  font-weight: 400;
+  height: 123px;
+  font-size: 90px;
+}
+
+#subTitle {
+  font-size: 24px;
+  width: 425px;
+  margin-bottom: 50px;
+}
+
+.styleMain button {
+  border: none;
+  background: black;
+  color: white;
+  padding: 8px 45px;
+  border-radius: 20px;
+}
+
+#right {
+  position: absolute;
+  right: 0;
+}
+
+/* Trending section starts here */
+
+.sectionContainers {
+  width: 1224px;
+  margin: 40px auto;
+}
+
+.trendingContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trendingGeneral {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  width: 376px;
+}
+
+.trendingNum {
+  color: #E6E6E6;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.posted {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.postedBy {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.text2Title {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.dateAndMins {
+  color: #757575;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Posts, category, footer */
+
+.notTrendingNews {
+  width: 695px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.categories {
+  background-color: #F2F2F2;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin: 0 5px;
+}
