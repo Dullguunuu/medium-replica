@@ -37,7 +37,7 @@ export default function Header() {
                         {navLink.map((e, index) => (
                             <>
                                 <li className="navList" key={index}>
-                                    <a className="navA" href=""
+                                    <a className="navA" href="ythn"
                                         onClick={(i) => {
                                             i.preventDefault();
                                             handleModal(e)
